@@ -8,19 +8,11 @@ import UIKit
 
 class Cellule : UITableViewCell {
     
-  /*  @IBOutlet weak var titleName: UILabel!
-    @IBOutlet weak var date: UILabel!
-    @IBOutlet weak var descrip: UILabel!
-    @IBOutlet weak var producerName: UILabel!
-    @IBOutlet weak var directorName: UILabel!
-    /*    func configure(text1: String, text2: String, text3: String, text4: String, text5: String) {
-        titleName.text = text1
-        date.text = text2
-        descrip.text = text3
-        producerName.text = text4
-        directorName.text = text5
-       }
- */
+    @IBOutlet var title: UILabel!
+    @IBOutlet var date: UILabel!
+    @IBOutlet var dscrip: UILabel!
+    @IBOutlet var dirname: UILabel!
+    @IBOutlet var prodname: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -30,5 +22,5 @@ class Cellule : UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-    }*/
+    }
 }
