@@ -13,6 +13,10 @@
 		F27E9233299B86920088F194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27E9231299B86920088F194 /* Main.storyboard */; };
 		F27E9235299B86930088F194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27E9234299B86930088F194 /* Assets.xcassets */; };
 		F27E9238299B86930088F194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27E9236299B86930088F194 /* LaunchScreen.storyboard */; };
+		F2B058F929A0E7C700F2138D /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B058F829A0E7C700F2138D /* Film.swift */; };
+		F2B058FB29A0E7FC00F2138D /* filmsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B058FA29A0E7FC00F2138D /* filmsResponse.swift */; };
+		F2D27951299F85AC00E544C6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D27950299F85AC00E544C6 /* DetailViewController.swift */; };
+		F2D27953299F94A500E544C6 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D27952299F94A500E544C6 /* URLSession.swift */; };
 		F2E1FA01299B900700B812D6 /* Star_Wars_Logo..png in Resources */ = {isa = PBXBuildFile; fileRef = F2E1FA00299B900700B812D6 /* Star_Wars_Logo..png */; };
 		F2E1FA03299B90C600B812D6 /* star_wars_logo_PNG34 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E1FA02299B90C600B812D6 /* star_wars_logo_PNG34 1.png */; };
 		F2E1FA05299BA68100B812D6 /* Cellule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1FA04299BA68100B812D6 /* Cellule.swift */; };
@@ -27,6 +31,10 @@
 		F27E9234299B86930088F194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F27E9237299B86930088F194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F27E9239299B86930088F194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B058F829A0E7C700F2138D /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		F2B058FA29A0E7FC00F2138D /* filmsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filmsResponse.swift; sourceTree = "<group>"; };
+		F2D27950299F85AC00E544C6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F2D27952299F94A500E544C6 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
 		F2E1FA00299B900700B812D6 /* Star_Wars_Logo..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Star_Wars_Logo..png; path = ../../../Star_Wars_Logo..png; sourceTree = "<group>"; };
 		F2E1FA02299B90C600B812D6 /* star_wars_logo_PNG34 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_wars_logo_PNG34 1.png"; path = "../../../star_wars_logo_PNG34 1.png"; sourceTree = "<group>"; };
 		F2E1FA04299BA68100B812D6 /* Cellule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cellule.swift; sourceTree = "<group>"; };
@@ -72,6 +80,10 @@
 				F27E9236299B86930088F194 /* LaunchScreen.storyboard */,
 				F27E9239299B86930088F194 /* Info.plist */,
 				F2E1FA04299BA68100B812D6 /* Cellule.swift */,
+				F2D27950299F85AC00E544C6 /* DetailViewController.swift */,
+				F2D27952299F94A500E544C6 /* URLSession.swift */,
+				F2B058F829A0E7C700F2138D /* Film.swift */,
+				F2B058FA29A0E7FC00F2138D /* filmsResponse.swift */,
 			);
 			path = "Lab-ACHRAF";
 			sourceTree = "<group>";
@@ -149,10 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B058FB29A0E7FC00F2138D /* filmsResponse.swift in Sources */,
 				F27E9230299B86920088F194 /* ViewController.swift in Sources */,
 				F2E1FA05299BA68100B812D6 /* Cellule.swift in Sources */,
+				F2D27953299F94A500E544C6 /* URLSession.swift in Sources */,
+				F2D27951299F85AC00E544C6 /* DetailViewController.swift in Sources */,
 				F27E922C299B86920088F194 /* AppDelegate.swift in Sources */,
 				F27E922E299B86920088F194 /* SceneDelegate.swift in Sources */,
+				F2B058F929A0E7C700F2138D /* Film.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
